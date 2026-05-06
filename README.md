@@ -1,12 +1,3 @@
-I'm Badar ul nisa,
- first year Cyber security student, I'm currently working on a project, soon will upload here for ya guys, I'm learning these days C++, i found it boring at first, but its pretty fun, I know what you guys must be thinking, its why are you learning programming when you are a cyber student, right?
- well, in my obinion its better this way, programming and cyber, cool, right?
- i have successfully disabled my neighbors WIFI, did brute forcing, and decoding(forensic security), right now i have been looking into reverse engineering, i found it thrilling, please dont call it boring, I beg!!
- A very big thank you if you have actually read.
-medusaTRI3D2seduceME@outlook.com
-badrulnisakhan@icloud.com 
- (Fun fact: my jokes are actually funny and i can cook better than most, I love reading, please count it as a skill)
-
 <div align="center">
 
 ```
@@ -26,16 +17,32 @@ badrulnisakhan@icloud.com
 
 </div>
 
+---
 
+Hey, I'm **Badar ul nisa**,  first year Cybersecurity student. I'm currently working on a project that I'll be uploading here soon, so stay tuned.
 
-```bash
+These days I've been learning C++. Boring at first, but honestly? Pretty fun once it clicks. I know what you're thinking  *why is a cyber student learning programming?* Well, in my opinion, programming + cybersecurity is just the better path. Makes sense when you think about it.
 
-rahhhhhhhhhhhhhhhhhhhh!🦅
-```
+So far I've successfully disabled my neighbor's WiFi, done some brute forcing, and dug into forensic decoding. Right now I'm deep into **reverse engineering**  and if you dare call it boring, I beg! pease dont'(😠). It is genuinely thrilling.
+
+If you actually read all of this thank you, truly. You're one of the good ones.
+
+ *Fun fact: my jokes are actually funny, and I can cook better than most. I love Reading (please count it as a skill).*
 
 ---
 
-### ⚔️ 
+###  Reach Me
+
+<div align="center">
+
+[![Outlook](https://img.shields.io/badge/medusaTRI3D2seduceME-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:medusaTRI3D2seduceME@outlook.com)
+[![iCloud](https://img.shields.io/badge/badrulnisakhan-3693F3?style=for-the-badge&logo=icloud&logoColor=white)](mailto:badrulnisakhan@icloud.com)
+
+</div>
+
+---
+
+### ⚔️
 
 **Languages & OS**
 
@@ -44,6 +51,7 @@ rahhhhhhhhhhhhhhhhhhhh!🦅
 ![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Scripting](https://img.shields.io/badge/scripting-121011?style=for-the-badge&logo=gnu-scripting&logoColor=pink)
 
 **Forensics & RE Tools**
 
@@ -55,7 +63,7 @@ rahhhhhhhhhhhhhhhhhhhh!🦅
 ![Autopsy](https://img.shields.io/badge/Autopsy-111111?style=for-the-badge&logoColor=red)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![strings/xxd/file](https://img.shields.io/badge/strings%20%7C%20xxd%20%7C%20file-222222?style=for-the-badge&logoColor=red)
+
 
 **CTF Platforms**
 
@@ -83,7 +91,7 @@ rahhhhhhhhhhhhhhhhhhhh!🦅
 
 ---
 
-###  Contributions
+### Contributions
 
 <div align="center">
 
