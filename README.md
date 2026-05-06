@@ -35,7 +35,7 @@ rahhhhhhhhhhhhhhhhhhhh!🦅
 
 ---
 
-### ⚔️ Arsenal
+### ⚔️ 
 
 **Languages & OS**
 
@@ -66,7 +66,7 @@ rahhhhhhhhhhhhhhhhhhhh!🦅
 
 ---
 
-### 📊 Stats
+###  Stats
 
 <div align="center">
 
@@ -83,7 +83,7 @@ rahhhhhhhhhhhhhhhhhhhh!🦅
 
 ---
 
-### 🐍 Contributions
+###  Contributions
 
 <div align="center">
 
