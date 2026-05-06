@@ -70,8 +70,8 @@ rahhhhhhhhhhhhhhhhhhhh!🦅
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Badarulnisa&show_icons=true&theme=radical&hide_border=true&bg_color=0d0d0d&title_color=FF0000&icon_color=FF0000&text_color=ffffff" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Badarulnisa&layout=compact&theme=radical&hide_border=true&bg_color=0d0d0d&title_color=FF0000&text_color=ffffff" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Badarulnisa&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Badarulnisa&layout=compact&theme=radical&hide_border=true&langs_count=6" height="165"/>
 
 </div>
 
