@@ -78,8 +78,7 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Badarulnisa&show_icons=true&theme=radical&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Badarulnisa&layout=compact&theme=radical&hide_border=true&langs_count=6" height="165"/>
+
 
 </div>
 
