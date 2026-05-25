@@ -49,6 +49,18 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 
 ---
 
+</div>
+<div align="center">
+  <img src="assets/hemlock-hex.svg" width="480" height="480"/>
+</div>
+
+---
+
+ **Hemlock Hex**  is our CTF team name, we have played numerous ctfs under this name and gained certs, vouchers and prizes
+one of this includes  **Hack the box**  premium 300$ voucher.
+
+---
+
 ### ⚔️
 
 **Languages & OS**
@@ -118,4 +130,4 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 
 <div align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=FF0000&center=true&vCenter=true&width=500&lines=every+system+has+a+vulnerability.+i+will+find+it." />
-</div>
+  
