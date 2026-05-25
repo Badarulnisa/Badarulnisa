@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 480 480" width="480" height="480">
+
+<title>Hemlock Hex Logo</title>
+<desc>Gothic-cyber animated logo for the Hemlock Hex Discord server.</desc>
+
+<defs>
+  <filter id="f-noise" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="turbulence" baseFrequency="0.88" numOctaves="3" result="noise">
+      <animate attributeName="seed" values="0;3;7;13;19;25;31;37;0" dur="0.65s" repeatCount="indefinite"/>
+    </feTurbulence>
+    <feColorMatrix type="saturate" values="0" in="noise" result="gray"/>
+    <feBlend in="SourceGraphic" in2="gray" mode="screen"/>
+  </filter>
+  <filter id="f-glow-g" x="-35%" y="-35%" width="170%" height="170%">
+    <feGaussianBlur stdDeviation="4.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="f-glow-p" x="-35%" y="-35%" width="170%" height="170%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="f-glow-sm" x="-50%" y="-25%" width="200%" height="150%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scanlines" x="0" y="0" width="1" height="3" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="1" height="1" fill="#000" opacity="0.07"/>
+  </pattern>
+
+  <clipPath id="dc0"><rect x="354" y="113" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;160;160;0;0"
+      keyTimes="0;0.559;0.560;0.650;0.740;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc1"><rect x="358" y="127" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;155;155;0;0"
+      keyTimes="0;0.571;0.572;0.655;0.742;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc2"><rect x="352" y="140" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;150;150;0;0"
+      keyTimes="0;0.583;0.584;0.660;0.744;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc3"><rect x="361" y="153" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;145;145;0;0"
+      keyTimes="0;0.595;0.596;0.665;0.746;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc4"><rect x="355" y="166" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;140;140;0;0"
+      keyTimes="0;0.607;0.608;0.670;0.748;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc5"><rect x="359" y="179" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;135;135;0;0"
+      keyTimes="0;0.619;0.620;0.674;0.750;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc6"><rect x="353" y="192" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;130;130;0;0"
+      keyTimes="0;0.631;0.632;0.678;0.752;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc7"><rect x="360" y="205" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;120;120;0;0"
+      keyTimes="0;0.643;0.644;0.684;0.754;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc8"><rect x="355" y="218" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;110;110;0;0"
+      keyTimes="0;0.655;0.656;0.690;0.756;0.760;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <clipPath id="dc9"><rect x="354" y="231" width="13" height="0">
+    <animate attributeName="height" values="0;0;0;100;100;0;0"
+      keyTimes="0;0.667;0.668;0.696;0.758;0.762;1" dur="5s" repeatCount="indefinite"/>
+  </rect></clipPath>
+</defs>
+
+<rect id="bg" width="480" height="480" fill="#000000"/>
+<rect id="scanline-overlay" width="480" height="480" fill="url(#scanlines)"/>
+<rect id="noise-intro" width="480" height="480" fill="#777" filter="url(#f-noise)" opacity="0.30">
+  <animate attributeName="opacity" values="0.30;0.30;0;0" keyTimes="0;0.01;0.16;1"
+    dur="5s" repeatCount="indefinite"/>
+</rect>
+
+<g id="hexagon">
+  <path id="hex-full"
+    d="M240,35 L361,105 L361,245 L240,315 L119,245 L119,105 Z"
+    fill="none" stroke="#8B45D0" stroke-width="1.8"
+    stroke-dasharray="840" stroke-dashoffset="840"
+    filter="url(#f-glow-p)">
+    <animate attributeName="stroke-dashoffset"
+      values="840;840;0;0;0" keyTimes="0;0.16;0.30;0.999;1"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path id="hex-eraser" d="M361,105 L361,245"
+    fill="none" stroke="#000000" stroke-width="3.5" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0"
+      keyTimes="0;0.2999;0.300;0.999;1" calcMode="discrete"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path id="hex-fracture"
+    d="M361,105 L348,124 L371,147 L349,170 L374,193 L351,216 L366,229 L361,245"
+    fill="none" stroke="#00FF00" stroke-width="1.5"
+    stroke-dasharray="4,5" opacity="0" filter="url(#f-glow-g)">
+    <animate attributeName="opacity" values="0;0;0;1;1;0"
+      keyTimes="0;0.299;0.300;0.380;0.999;1"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+  <g id="crack-lines" opacity="0" stroke="#00AA00" stroke-width="0.9" fill="none" filter="url(#f-glow-sm)">
+    <animate attributeName="opacity" values="0;0;0;0.55;0.55;0"
+      keyTimes="0;0.379;0.380;0.430;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <line x1="360" y1="173" x2="342" y2="204"/>
+    <line x1="360" y1="173" x2="372" y2="202"/>
+    <line x1="360" y1="173" x2="376" y2="157"/>
+  </g>
+</g>
+
+<rect id="glitch-red" x="-5" y="143" width="492" height="2.5" fill="#FF0000" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.55;0;0.45;0;0"
+    keyTimes="0;0.299;0.300;0.318;0.334;0.355;0.372;1" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="x" values="-5;-5;-5;-20;-5;10;-5;-5"
+    keyTimes="0;0.299;0.300;0.318;0.334;0.355;0.372;1" dur="5s" repeatCount="indefinite"/>
+</rect>
+<rect id="glitch-cyan" x="0" y="207" width="480" height="2" fill="#00FFFF" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.38;0;0.32;0;0"
+    keyTimes="0;0.319;0.320;0.338;0.352;0.364;0.380;1" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="x" values="0;0;0;16;0;-14;0;0"
+    keyTimes="0;0.319;0.320;0.338;0.352;0.364;0.380;1" dur="5s" repeatCount="indefinite"/>
+</rect>
+
+<g id="leaf" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;1;1;0"
+    keyTimes="0;0.379;0.380;0.500;0.999;1" dur="5s" repeatCount="indefinite"/>
+  <g id="skull-bg" opacity="0.12" stroke="#8B0000" stroke-width="1.1" fill="none">
+    <circle cx="240" cy="168" r="47"/>
+    <circle cx="224" cy="160" r="8.5"/>
+    <circle cx="256" cy="160" r="8.5"/>
+    <polygon points="240,175 235,185 245,185" stroke-width="0.9"/>
+    <rect x="214" y="193" width="52" height="22" rx="1"/>
+    <line x1="225" y1="193" x2="225" y2="215"/>
+    <line x1="234" y1="193" x2="234" y2="215"/>
+    <line x1="246" y1="193" x2="246" y2="215"/>
+    <line x1="255" y1="193" x2="255" y2="215"/>
+  </g>
+  <g id="firewall-logs" font-family="Courier New, monospace" font-size="7"
+     fill="#8B0000" opacity="0.16" text-anchor="start">
+    <text x="198" y="130">ACCEPT 10.0.0.1:22 TCP</text>
+    <text x="198" y="141">DROP   192.168.1.55:80</text>
+    <text x="198" y="152">BLOCK  172.16.3.2:443</text>
+    <text x="198" y="163">DENY   10.10.10.1:3389</text>
+  </g>
+  <g id="stem" filter="url(#f-glow-g)" stroke="#00DD00" fill="none">
+    <line x1="240" y1="235" x2="240" y2="93" stroke-width="1.9"/>
+    <line x1="240" y1="222" x2="227" y2="222" stroke-width="0.9"/>
+    <circle cx="240" cy="222" r="2.5" fill="#00DD00" stroke="none"/>
+    <line x1="240" y1="176" x2="254" y2="176" stroke-width="0.9"/>
+    <circle cx="240" cy="176" r="2.5" fill="#00DD00" stroke="none"/>
+    <line x1="240" y1="144" x2="229" y2="144" stroke-width="0.9"/>
+    <circle cx="240" cy="144" r="2.5" fill="#00DD00" stroke="none"/>
+    <line x1="240" y1="111" x2="252" y2="111" stroke-width="0.9"/>
+    <circle cx="240" cy="111" r="2.5" fill="#00DD00" stroke="none"/>
+  </g>
+  <text id="easter-egg-0x" x="257" y="180" font-family="Courier New, monospace"
+    font-size="11" font-weight="bold" fill="#003300" opacity="0.40">0x</text>
+  <g id="fronds" stroke-width="0.9" filter="url(#f-glow-sm)">
+    <path d="M240,225 C245,220 254,212 258,225 L253,230 L255,226 L249,233 C244,230 240,227 240,225"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+    <path d="M240,213 C232,208 218,200 213,213 L221,218 L217,214 L226,221 C233,218 240,215 240,213"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+    <path d="M240,197 C251,192 268,184 275,197 L265,202 L270,198 L258,205 C249,202 240,199 240,197"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+    <path d="M240,180 C227,175 206,167 197,180 L210,185 L203,181 L219,188 C229,185 240,182 240,180"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+    <path d="M240,163 C254,158 276,150 285,163 L272,168 L278,164 L263,171 C251,168 240,165 240,163"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+    <path d="M240,146 C228,141 207,133 199,146 L211,151 L205,147 L220,154 C230,151 240,148 240,146"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+    <path d="M240,129 C250,124 266,116 273,129 L263,134 L268,130 L257,137 C248,134 240,131 240,129"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+    <path d="M240,112 C233,107 222,99 217,112 L224,117 L220,113 L229,120 C234,117 240,114 240,112"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+    <path d="M240,100 C245,95 252,87 255,100 L251,105 L253,101 L248,108 C244,105 240,102 240,100"
+      fill="#002800" fill-opacity="0.65" stroke="#00CC00"/>
+  </g>
+</g>
+
+<g id="binary-drips" font-family="Courier New, monospace" font-size="9" filter="url(#f-glow-sm)">
+  <text clip-path="url(#dc0)" x="357" y="113" fill="#00FF00" opacity="0.88">
+    <tspan x="357" dy="0">1</tspan><tspan x="357" dy="10">0</tspan><tspan x="357" dy="10">1</tspan>
+    <tspan x="357" dy="10">1</tspan><tspan x="357" dy="10">0</tspan><tspan x="357" dy="10">0</tspan>
+    <tspan x="357" dy="10">1</tspan><tspan x="357" dy="10">0</tspan><tspan x="357" dy="10">1</tspan>
+    <tspan x="357" dy="10">0</tspan><tspan x="357" dy="10">1</tspan><tspan x="357" dy="10">1</tspan>
+    <tspan x="357" dy="10">0</tspan><tspan x="357" dy="10">1</tspan><tspan x="357" dy="10">0</tspan>
+    <tspan x="357" dy="10">0</tspan>
+  </text>
+  <text clip-path="url(#dc1)" x="361" y="127" fill="#00EE00" opacity="0.83">
+    <tspan x="361" dy="0">0</tspan><tspan x="361" dy="10">1</tspan><tspan x="361" dy="10">0</tspan>
+    <tspan x="361" dy="10">1</tspan><tspan x="361" dy="10">1</tspan><tspan x="361" dy="10">0</tspan>
+    <tspan x="361" dy="10">0</tspan><tspan x="361" dy="10">1</tspan><tspan x="361" dy="10">1</tspan>
+    <tspan x="361" dy="10">0</tspan><tspan x="361" dy="10">1</tspan><tspan x="361" dy="10">0</tspan>
+    <tspan x="361" dy="10">1</tspan><tspan x="361" dy="10">0</tspan><tspan x="361" dy="10">1</tspan>
+    <tspan x="361" dy="10">1</tspan>
+  </text>
+  <text clip-path="url(#dc2)" x="355" y="140" fill="#00FF00" opacity="0.88">
+    <tspan x="355" dy="0">1</tspan><tspan x="355" dy="10">1</tspan><tspan x="355" dy="10">0</tspan>
+    <tspan x="355" dy="10">0</tspan><tspan x="355" dy="10">1</tspan><tspan x="355" dy="10">0</tspan>
+    <tspan x="355" dy="10">1</tspan><tspan x="355" dy="10">1</tspan><tspan x="355" dy="10">0</tspan>
+    <tspan x="355" dy="10">1</tspan><tspan x="355" dy="10">0</tspan><tspan x="355" dy="10">1</tspan>
+    <tspan x="355" dy="10">1</tspan><tspan x="355" dy="10">0</tspan><tspan x="355" dy="10">0</tspan>
+  </text>
+  <text clip-path="url(#dc3)" x="364" y="153" fill="#00DD00" opacity="0.82">
+    <tspan x="364" dy="0">0</tspan><tspan x="364" dy="10">0</tspan><tspan x="364" dy="10">1</tspan>
+    <tspan x="364" dy="10">0</tspan><tspan x="364" dy="10">1</tspan><tspan x="364" dy="10">1</tspan>
+    <tspan x="364" dy="10">0</tspan><tspan x="364" dy="10">0</tspan><tspan x="364" dy="10">1</tspan>
+    <tspan x="364" dy="10">1</tspan><tspan x="364" dy="10">0</tspan><tspan x="364" dy="10">1</tspan>
+    <tspan x="364" dy="10">0</tspan><tspan x="364" dy="10">1</tspan>
+  </text>
+  <text clip-path="url(#dc4)" x="358" y="166" fill="#00FF00" opacity="0.88">
+    <tspan x="358" dy="0">1</tspan><tspan x="358" dy="10">0</tspan><tspan x="358" dy="10">1</tspan>
+    <tspan x="358" dy="10">0</tspan><tspan x="358" dy="10">0</tspan><tspan x="358" dy="10">1</tspan>
+    <tspan x="358" dy="10">1</tspan><tspan x="358" dy="10">0</tspan><tspan x="358" dy="10">1</tspan>
+    <tspan x="358" dy="10">0</tspan><tspan x="358" dy="10">1</tspan><tspan x="358" dy="10">0</tspan>
+    <tspan x="358" dy="10">1</tspan><tspan x="358" dy="10">1</tspan>
+  </text>
+  <text clip-path="url(#dc5)" x="362" y="179" fill="#00EE00" opacity="0.83">
+    <tspan x="362" dy="0">0</tspan><tspan x="362" dy="10">1</tspan><tspan x="362" dy="10">1</tspan>
+    <tspan x="362" dy="10">0</tspan><tspan x="362" dy="10">1</tspan><tspan x="362" dy="10">0</tspan>
+    <tspan x="362" dy="10">0</tspan><tspan x="362" dy="10">1</tspan><tspan x="362" dy="10">0</tspan>
+    <tspan x="362" dy="10">1</tspan><tspan x="362" dy="10">1</tspan><tspan x="362" dy="10">0</tspan>
+    <tspan x="362" dy="10">1</tspan>
+  </text>
+  <text clip-path="url(#dc6)" x="356" y="192" fill="#00FF00" opacity="0.88">
+    <tspan x="356" dy="0">1</tspan><tspan x="356" dy="10">0</tspan><tspan x="356" dy="10">0</tspan>
+    <tspan x="356" dy="10">1</tspan><tspan x="356" dy="10">0</tspan><tspan x="356" dy="10">1</tspan>
+    <tspan x="356" dy="10">1</tspan><tspan x="356" dy="10">1</tspan><tspan x="356" dy="10">0</tspan>
+    <tspan x="356" dy="10">0</tspan><tspan x="356" dy="10">1</tspan><tspan x="356" dy="10">1</tspan>
+    <tspan x="356" dy="10">0</tspan>
+  </text>
+  <text clip-path="url(#dc7)" x="363" y="205" fill="#00DD00" opacity="0.82">
+    <tspan x="363" dy="0">0</tspan><tspan x="363" dy="10">1</tspan><tspan x="363" dy="10">0</tspan>
+    <tspan x="363" dy="10">1</tspan><tspan x="363" dy="10">1</tspan><tspan x="363" dy="10">0</tspan>
+    <tspan x="363" dy="10">1</tspan><tspan x="363" dy="10">0</tspan><tspan x="363" dy="10">0</tspan>
+    <tspan x="363" dy="10">1</tspan><tspan x="363" dy="10">1</tspan><tspan x="363" dy="10">0</tspan>
+  </text>
+  <text clip-path="url(#dc8)" x="358" y="218" fill="#00FF00" opacity="0.88">
+    <tspan x="358" dy="0">1</tspan><tspan x="358" dy="10">1</tspan><tspan x="358" dy="10">0</tspan>
+    <tspan x="358" dy="10">0</tspan><tspan x="358" dy="10">1</tspan><tspan x="358" dy="10">0</tspan>
+    <tspan x="358" dy="10">1</tspan><tspan x="358" dy="10">0</tspan><tspan x="358" dy="10">1</tspan>
+    <tspan x="358" dy="10">1</tspan><tspan x="358" dy="10">0</tspan>
+  </text>
+  <text clip-path="url(#dc9)" x="357" y="231" fill="#00EE00" opacity="0.83">
+    <tspan x="357" dy="0">0</tspan><tspan x="357" dy="10">1</tspan><tspan x="357" dy="10">1</tspan>
+    <tspan x="357" dy="10">0</tspan><tspan x="357" dy="10">1</tspan><tspan x="357" dy="10">0</tspan>
+    <tspan x="357" dy="10">1</tspan><tspan x="357" dy="10">1</tspan><tspan x="357" dy="10">0</tspan>
+    <tspan x="357" dy="10">1</tspan>
+  </text>
+</g>
+
+<g id="text-hemlock-hex" font-family="Courier New, monospace" font-weight="bold" filter="url(#f-glow-g)">
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.7599;0.760;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="149" y="347" font-size="44" fill="#00FF00">H</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.7799;0.780;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="175" y="347" font-size="44" fill="#00FF00">E</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.7999;0.800;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="201" y="347" font-size="44" fill="#00FF00">M</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.8199;0.820;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="227" y="347" font-size="44" fill="#00FF00">L</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.8399;0.840;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="253" y="347" font-size="44" fill="#00FF00">O</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.8599;0.860;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="279" y="347" font-size="44" fill="#00FF00">C</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.8799;0.880;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="305" y="347" font-size="44" fill="#00FF00">K</text></g>
+
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.8999;0.900;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="207" y="388" font-size="36" fill="#00CC00">H</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.9199;0.920;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="229" y="388" font-size="36" fill="#00CC00">E</text></g>
+  <g opacity="0"><animate attributeName="opacity" calcMode="discrete"
+    values="0;0;1;1;0" keyTimes="0;0.9399;0.940;0.999;1" dur="5s" repeatCount="indefinite"/>
+    <text x="251" y="388" font-size="36" fill="#00CC00">X</text>
+    <line x1="251" y1="362" x2="271" y2="388" stroke="#B0B0B0" stroke-width="0.8" opacity="0.35"/>
+    <line x1="251" y1="388" x2="271" y2="362" stroke="#B0B0B0" stroke-width="0.8" opacity="0.35"/>
+  </g>
+</g>
+
+<rect id="cursor" width="14" height="3" fill="#00FF00" opacity="0">
+  <animate attributeName="x" calcMode="discrete"
+    values="175;175;201;227;253;279;305;331;229;251;273;273"
+    keyTimes="0;0.760;0.780;0.800;0.820;0.840;0.860;0.880;0.900;0.920;0.940;1.000"
+    dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="y" calcMode="discrete"
+    values="349;349;349;349;349;349;349;349;391;391;391;391"
+    keyTimes="0;0.760;0.780;0.800;0.820;0.840;0.860;0.880;0.900;0.920;0.940;1.000"
+    dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" calcMode="discrete"
+    values="0;1;1;1;1;1;1;1;1;1;1;0;1;0;1;0"
+    keyTimes="0;0.760;0.780;0.800;0.820;0.840;0.860;0.880;0.900;0.920;0.940;0.958;0.970;0.983;0.994;1.000"
+    dur="5s" repeatCount="indefinite"/>
+</rect>
+
+</svg>
