@@ -35,8 +35,15 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 
 <div align="center">
 
-[![Outlook](https://img.shields.io/badge/medusaTRI3D2seduceME-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:medusaTRI3D2seduceME@outlook.com)
-[![iCloud](https://img.shields.io/badge/badrulnisakhan-3693F3?style=for-the-badge&logo=icloud&logoColor=white)](mailto:badrulnisakhan@icloud.com)
+[![Outlook](https://img.shields.io/badge/medusaTRI3D2seduceME-0078D4?&logo=microsoft-outlook&logoColor=white)](mailto:medusaTRI3D2seduceME@outlook.com)
+[![iCloud](https://img.shields.io/badge/badrulnisakhan-3693F3?&logo=icloud&logoColor=white)](mailto:badrulnisakhan@icloud.com)
+</div>
+
+###  Socials
+
+<div align="  left">
+
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/s7us9SZ7) 
 
 </div>
 
@@ -52,6 +59,9 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Scripting](https://img.shields.io/badge/scripting-121011?style=for-the-badge&logo=gnu-scripting&logoColor=pink)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white)
 
 **Forensics & RE Tools**
 
@@ -63,6 +73,8 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 ![Autopsy](https://img.shields.io/badge/Autopsy-111111?style=for-the-badge&logoColor=red)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) 
+![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) 
 
 
 **CTF Platforms**
@@ -84,7 +96,8 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Badarulnisa&theme=dark&hide_border=true&background=0d0d0d&ring=FF0000&fire=FF0000&currStreakLabel=FF0000&sideLabels=ffffff&dates=888888" />
+![](https://streak-stats.demolab.com/?user=Badarulnisa&theme=gruvbox_light&hide_border=false)<br/>
+
 
 </div>
 
