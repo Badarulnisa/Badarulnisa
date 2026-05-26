@@ -44,6 +44,7 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 <div align="  left">
 
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/s7us9SZ7) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/badar-u-857a4a27) 
 
 </div>
 
