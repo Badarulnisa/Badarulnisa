@@ -97,23 +97,17 @@ one of this includes  **Hack the box**  premium 300$ voucher.
 
 ---
 
-###  Stats
-
-<div align="center">
 
 
-
-</div>
-
-<div align="center">
-
-
+### Stats:
+![](https://github-readme-stats.shion.dev/api?username=Badarulnisa&theme=gruvbox_light&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=Badarulnisa&theme=gruvbox_light&hide_border=false)<br/>
-
-
-</div>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Badarulnisa&theme=gruvbox_light&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
+
+
+
 
 ### Contributions
 
