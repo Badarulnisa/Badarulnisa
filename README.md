@@ -50,10 +50,9 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 
 ---
 
-</div>
-<div align="center">
-  <img src="assets/hemlock-hex.svg" width="480" height="480"/>
-</div>
+<p align="center">
+  <img src="hemlock_hex_snake.gif" width="150" alt="Hemlock Hex">
+</p>
 
 ---
 
