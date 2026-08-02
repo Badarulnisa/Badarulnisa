@@ -51,7 +51,7 @@ If you actually read all of this thank you, truly. You're one of the good ones.
 ---
 
 <p align="center">
-  <img src="hemlock_hex_snake.gif" width="150" alt="Hemlock Hex">
+  <img src="dragon_animated.gif" width="150" alt="Hemlock Hex">
 </p>
 
 ---
