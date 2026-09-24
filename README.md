@@ -19,14 +19,14 @@
 
 ---
 
-Hey, I'm **Badar ul nisa**,  first year Cybersecurity student. I'm currently working on a project that I'll be uploading here soon, so stay tuned.
+Hey, I'm **hex**,  second year Cybersecurity student. I work on many projects some of them includes where I get stuck others involve work based and not to forget where my friends force me to stalk their ex's so I end up making projects **OSINT** based, so stay tuned.
 
 These days I've been learning C++. Boring at first, but honestly? Pretty fun once it clicks. I know what you're thinking  *why is a cyber student learning programming?* Well, in my opinion, programming + cybersecurity is just the better path. Makes sense when you think about it.
 
-So far I've successfully disabled my neighbor's WiFi, done some brute forcing, and dug into forensic decoding. Right now I'm deep into **reverse engineering**  and if you dare call it boring, I beg! pease dont'(😠). It is genuinely thrilling.
+I've successfully disabled my neighbor's WiFi, done Pentesting, Scrapping Data, Reverse Enginnering be it API calls or anything and dug into forensic decoding. Right now I'm deep into **reverse engineering**  and if you dare call it boring, I beg! pease dont'(😠). It is genuinely thrilling.
 
 If you actually read all of this thank you, truly. You're one of the good ones.
-
+I genuinly Love OSINT based work.
  *Fun fact: my jokes are actually funny, and I can cook better than most. I love Reading (please count it as a skill).*
 
 ---
